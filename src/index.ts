@@ -9,5 +9,3 @@ function factorialize(num: number): number {
     return num * memoized(num - 1);
   }
 }
-
-console.log(memoized(5));
